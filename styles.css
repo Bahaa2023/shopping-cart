@@ -1,0 +1,29 @@
+/* styles.css */
+
+.cart {
+    font-size: 25px;
+    transition: transform 0.5s ease, color 0.5s ease;
+  }
+  
+  .cart sup {
+    font-size: 20px;
+  }
+  
+  .cart:hover sup,
+  .cart:hover,
+  .cart:hover i {
+    transform: scale(1.1); 
+    color: #f0d23d; 
+  }
+  
+  .logo img {
+    max-width: 100px;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover img {
+    transform: scale(1.1);
+  }
+
+  
+  
