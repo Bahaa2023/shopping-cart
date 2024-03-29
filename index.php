@@ -1,6 +1,7 @@
 <?php
 include 'dbconnection.php';
 
+
 // Function to get total quantity of items in the cart
 function getTotalQuantity() {
     global $pdo;
